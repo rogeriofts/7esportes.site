@@ -1,0 +1,87 @@
+:root{
+    --bg_principal:black;
+    --bg_secundario:linear-gradient(120deg, #ffd900, #ffe760);
+    --bg_green:rgb(25, 202, 19);
+    --color_text_1:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(https://webcentra.fun/codigos4/profitvsl_img/fundo.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background: var(--bg_secundario);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.div_pix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    gap: 10px;
+}
+#nome{
+    font-size: 16px;
+    font-weight: bold;
+}
+.saldo_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.saldo_div div{
+    background: #FFF;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saldo_div div span{
+    font-weight: bold;
+    color: #000;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+main h3{
+    color: var(--color_text_1);
+    text-align: center;
+}
+footer{
+    background: var(--bg_secundario);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
